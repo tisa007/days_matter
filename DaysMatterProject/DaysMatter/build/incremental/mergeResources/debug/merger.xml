@@ -14,15 +14,180 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="appwidget_bg"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/appwidget_bg.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="appwidget_bg_focused"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/appwidget_bg_focused.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="appwidget_bg_pressed"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/appwidget_bg_pressed.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="appwidget_dark_bg"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/appwidget_dark_bg.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="appwidget_dark_bg_focused"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/appwidget_dark_bg_focused.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="appwidget_inner_focused_c"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/appwidget_inner_focused_c.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="appwidget_inner_focused_l"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/appwidget_inner_focused_l.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="appwidget_inner_focused_r"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/appwidget_inner_focused_r.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="appwidget_inner_pressed_c"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/appwidget_inner_pressed_c.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="appwidget_inner_pressed_l"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/appwidget_inner_pressed_l.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="appwidget_inner_pressed_r"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/appwidget_inner_pressed_r.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_item_left"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/bg_item_left.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_item_mid_blue"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/bg_item_mid_blue.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_item_right_blue"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/bg_item_right_blue.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
+                name="ic_task_category"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/ic_task_category.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_task_date"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/ic_task_date.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_task_name"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/ic_task_name.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_task_repeat"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/ic_task_repeat.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_task_top"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/ic_task_top.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dm_appwidget"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/dm_appwidget.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="task_create_fragment"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/task_create_fragment.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="task_list_fragment"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/task_list_fragment.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="task_list_item"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/task_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_item"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/widget_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_layout"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/widget_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_list"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/widget_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/values/strings.xml"
                 qualifiers="" >
-                <string name="app_name" >DaysMatter
+                <string name="cancel" >不要啊
                 </string>
+                <string name="ok" >好滴
+                </string>
+                <string name="app_name" >倒数日
+                </string>
+
+                <string-array name="task_categories" >
+                    <item>
+生活
+                    </item>
+                    <item>
+工作
+                    </item>
+                    <item>
+纪念日
+                    </item>
+                </string-array>
+                <string-array name="repeat_modes" >
+                    <item>
+不重复
+                    </item>
+                    <item>
+每周一次
+                    </item>
+                    <item>
+每月一次
+                    </item>
+                    <item>
+每年一次
+                    </item>
+                </string-array>
             </file>
             <file
                 path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/values/styles.xml"
@@ -68,6 +233,26 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="dm_appwidget_info"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/xml/dm_appwidget_info.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="activity_main"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/menu/activity_main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="ic_menu_add"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/ic_menu_add.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="img_arrow"
+                path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/drawable-xhdpi/img_arrow.png"
+                qualifiers="xhdpi"
+                type="drawable" />
         </source>
         <source path="/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/build/res/rs/debug" />
     </dataSet>

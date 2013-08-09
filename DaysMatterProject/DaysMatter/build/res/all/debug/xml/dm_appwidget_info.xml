@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:autoAdvanceViewId="@id/lv"
+    android:initialLayout="@layout/widget_list"
+    android:minHeight="100dip"
+    android:minWidth="300dip"
+    android:resizeMode="horizontal|vertical"
+    android:previewImage="@drawable/ic_launcher"
+    android:updatePeriodMillis="1000" >
+
+</appwidget-provider><!-- From: file:/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/xml/dm_appwidget_info.xml -->

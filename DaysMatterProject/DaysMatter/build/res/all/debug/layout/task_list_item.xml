@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="3dip" >
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#f9f9f9"
+        android:singleLine="true"
+        android:gravity="center_vertical|left"
+        android:padding="5dip"
+        android:textColor="#333"
+        android:textSize="14dip" />
+
+    <TextView
+        android:id="@+id/tv_remain_time"
+        android:layout_width="40dip"
+        android:layout_height="match_parent"
+        android:background="#99f"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#eee"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_time_unit"
+        android:layout_width="40dip"
+        android:layout_height="match_parent"
+        android:background="#66a"
+        android:singleLine="true"
+        android:gravity="center"
+        android:text="天"
+        android:textColor="#eee"
+        android:textSize="16dip" />
+
+</LinearLayout><!-- From: file:/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/task_list_item.xml -->

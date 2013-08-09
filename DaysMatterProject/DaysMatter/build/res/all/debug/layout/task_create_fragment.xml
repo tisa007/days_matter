@@ -1,0 +1,175 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90dip"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_task_name"
+                android:drawablePadding="5dip"
+                android:gravity="center_vertical"
+                android:text="事件"
+                android:textColor="#666"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:hint="点击这里输入事件名称"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="#666"
+                android:textSize="16dip" />
+
+            <requestFocus />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90dip"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_task_date"
+                android:drawablePadding="5dip"
+                android:gravity="center_vertical"
+                android:text="日期"
+                android:textColor="#666"
+                android:textSize="16dip" />
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right"
+                android:hint="点击这里选择日期"
+                android:onClick="showTimePickerDialog"
+                android:textColor="#666"
+                android:textSize="16dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90dip"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_task_category"
+                android:drawablePadding="5dip"
+                android:gravity="center_vertical"
+                android:text="分类"
+                android:textColor="#666"
+                android:textSize="16dip" />
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/sp_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/task_categories"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90dip"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_task_repeat"
+                android:drawablePadding="5dip"
+                android:gravity="center_vertical"
+                android:text="重复"
+                android:textColor="#666"
+                android:textSize="16dip" />
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/sp_repeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/repeat_modes"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90dip"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_task_top"
+                android:drawablePadding="5dip"
+                android:gravity="center_vertical"
+                android:text="置顶"
+                android:textColor="#666"
+                android:textSize="16dip" />
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Switch
+                android:id="@+id/sw_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="不要"
+                android:textOn="是的" />
+        </LinearLayout>
+        
+        <NumberPicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/np"/>
+
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="完  成" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/task_create_fragment.xml -->
