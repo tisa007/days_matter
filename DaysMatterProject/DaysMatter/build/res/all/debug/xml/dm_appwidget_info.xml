@@ -8,4 +8,4 @@
     android:previewImage="@drawable/ic_launcher"
     android:updatePeriodMillis="1000" >
 
-</appwidget-provider><!-- From: file:/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/xml/dm_appwidget_info.xml -->
+</appwidget-provider><!-- From: file:/D:/Android/Projects/days_matter/DaysMatterProject/DaysMatter/src/main/res/xml/dm_appwidget_info.xml -->

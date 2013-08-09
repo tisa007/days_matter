@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/values/strings.xml -->
+    <!-- From: file:/D:/Android/Projects/days_matter/DaysMatterProject/DaysMatter/src/main/res/values/strings.xml -->
     <string-array name="repeat_modes">
         <item>不重复</item>
         <item>每周一次</item>
@@ -17,7 +17,7 @@
     <string name="app_name">倒数日</string>
     <string name="cancel">不要啊</string>
     <string name="ok">好滴</string>
-    <!-- From: file:/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/values/styles.xml -->
+    <!-- From: file:/D:/Android/Projects/days_matter/DaysMatterProject/DaysMatter/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in

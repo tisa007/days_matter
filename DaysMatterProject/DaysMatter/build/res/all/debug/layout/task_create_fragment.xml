@@ -154,15 +154,8 @@
             <Switch
                 android:id="@+id/sw_top"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textOff="不要"
-                android:textOn="是的" />
+                android:layout_height="wrap_content" />
         </LinearLayout>
-        
-        <NumberPicker
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/np"/>
 
         <Button
             android:id="@+id/btn_done"
@@ -172,4 +165,4 @@
             android:text="完  成" />
     </LinearLayout>
 
-</ScrollView><!-- From: file:/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/task_create_fragment.xml -->
+</ScrollView><!-- From: file:/D:/Android/Projects/days_matter/DaysMatterProject/DaysMatter/src/main/res/layout/task_create_fragment.xml -->

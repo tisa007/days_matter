@@ -42,15 +42,16 @@ public class TaskCreateFragment extends DialogFragment implements OnClickListene
 		mSpRepeat = (Spinner)v.findViewById(R.id.sp_repeat);
 		mSwTop = (Switch)v.findViewById(R.id.sw_top);
 		mBtnDone = (Button)v.findViewById(R.id.btn_done);
-		
-		NumberPicker np = (NumberPicker)v.findViewById(R.id.np);
-		np.setFormatter(new Formatter() {
-			@Override
-			public String format(int value) {
-				return "test";
-			}
-		});
-		
+
+        getDialog().setTitle("添加倒数日");
+//		NumberPicker np = (NumberPicker)v.findViewById(R.id.np);
+//		np.setFormatter(new Formatter() {
+//			@Override
+//			public String format(int value) {
+//				return "test";
+//			}
+//		});
+
 		mBtnDate.setOnClickListener(this);
 		mBtnDone.setOnClickListener(this);
 		return v;
@@ -113,6 +114,7 @@ public class TaskCreateFragment extends DialogFragment implements OnClickListene
 		}
 		t.setRepeatMode(mSpRepeat.getSelectedItemPosition()+1);
 		if (mDate != null) {
+            t.setDate(false, mDate.getYear(), mDate.getMonth(), mDate.getDay());
 		    //t.setDate(mDate);
 		} else {
 			Toast.makeText(getActivity(), "妞儿，日期也得选啊~", Toast.LENGTH_SHORT).show();
@@ -120,7 +122,7 @@ public class TaskCreateFragment extends DialogFragment implements OnClickListene
 		}
 		t.setId("tid_"+SystemClock.currentThreadTimeMillis());
 		TaskBiz.saveTask(getActivity(), t);
-		getFragmentManager().popBackStack();
+		this.dismiss();
 	}
 
 }

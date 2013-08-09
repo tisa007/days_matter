@@ -9,7 +9,7 @@ package com.tisa7.daysmatter;
 
 public final class R {
     public static final class array {
-        /**  From: file:/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/values/strings.xml 
+        /**  From: file:/D:/Android/Projects/days_matter/DaysMatterProject/DaysMatter/src/main/res/values/strings.xml 
          */
         public static final int repeat_modes=0x7f050000;
         public static final int task_categories=0x7f050001;
@@ -42,26 +42,25 @@ public final class R {
     }
     public static final class id {
         public static final int btn_date=0x7f090007;
-        public static final int btn_done=0x7f09000c;
+        public static final int btn_done=0x7f09000b;
         public static final int container=0x7f090000;
-        public static final int empty_view=0x7f090012;
+        public static final int empty_view=0x7f090011;
         public static final int et_name=0x7f090006;
-        public static final int lv=0x7f090013;
+        public static final int lv=0x7f090012;
         public static final int lv_task_list=0x7f090005;
-        public static final int menu_settings=0x7f090014;
-        public static final int np=0x7f09000b;
+        public static final int menu_settings=0x7f090013;
         public static final int sp_category=0x7f090008;
         public static final int sp_repeat=0x7f090009;
-        public static final int stack_view=0x7f090011;
+        public static final int stack_view=0x7f090010;
         public static final int sw_top=0x7f09000a;
-        public static final int tv_name=0x7f09000d;
-        public static final int tv_remain_time=0x7f09000e;
-        public static final int tv_time_unit=0x7f09000f;
+        public static final int tv_name=0x7f09000c;
+        public static final int tv_remain_time=0x7f09000d;
+        public static final int tv_time_unit=0x7f09000e;
         public static final int tv_top_date=0x7f090002;
         public static final int tv_top_name=0x7f090001;
         public static final int tv_top_remaind_days=0x7f090003;
         public static final int tv_top_unit=0x7f090004;
-        public static final int widget_item=0x7f090010;
+        public static final int widget_item=0x7f09000f;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -82,15 +81,15 @@ public final class R {
         public static final int ok=0x7f060002;
     }
     public static final class style {
-        /**  From: file:/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/values/styles.xml 
+        /**  From: file:/D:/Android/Projects/days_matter/DaysMatterProject/DaysMatter/src/main/res/values/styles.xml 
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
- From: file:/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/values-v11/styles.xml 
+ From: file:/D:/Android/Projects/days_matter/DaysMatterProject/DaysMatter/src/main/res/values-v11/styles.xml 
  API 11 theme customizations can go here. 
- From: file:/Users/wangpan/Documents/workspace/days_matter/DaysMatterProject/DaysMatter/src/main/res/values-v14/styles.xml 
+ From: file:/D:/Android/Projects/days_matter/DaysMatterProject/DaysMatter/src/main/res/values-v14/styles.xml 
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f070000;
